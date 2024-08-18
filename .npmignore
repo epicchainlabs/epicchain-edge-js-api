@@ -1,0 +1,8 @@
+.gitattributes
+appveyor.yml
+.travis.yml
+Dockerfile
+.gitignore
+node_modules/
+.vscode
+build/

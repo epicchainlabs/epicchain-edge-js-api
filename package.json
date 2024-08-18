@@ -1,0 +1,55 @@
+{
+  "name": "@neo-one/edge",
+  "author": "Spencer Corwin <spencer.corwin@neotracker.io>",
+  "version": "16.0.4",
+  "description": "Edge.js: run .NET and Node.js in-process on Windows, Mac OS, and Linux",
+  "tags": [
+    "owin",
+    "edge",
+    "net",
+    "clr",
+    "coreclr",
+    "c#",
+    "mono",
+    "managed",
+    ".net"
+  ],
+  "keywords": [
+    "owin",
+    "edge",
+    "net",
+    "clr",
+    "coreclr",
+    "c#",
+    "mono",
+    "managed",
+    ".net"
+  ],
+  "main": "./lib/edge.js",
+  "types": "edge-js.d.ts",
+  "engines": {
+    "node": ">= 6"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "edge-cs": "1.2.1",
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "junit-report-merger": "0.0.6",
+    "mocha": "5.1.1",
+    "mocha-junit-reporter": "^1.17.0"
+  },
+  "homepage": "https://github.com/neo-one-suite/edge",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neo-one-suite/edge.git"
+  },
+  "bugs": {
+    "url": "http://github.com/neo-one-suite/edge/issues"
+  },
+  "scripts": {
+    "install": "node tools/install.js",
+    "test": "node tools/test.js"
+  }
+}
